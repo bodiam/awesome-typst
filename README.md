@@ -61,47 +61,49 @@ Contributions are welcome!
 - [Typst Documentation](https://typst.app/docs)
 - [GitHub](https://github.com/typst/typst)
 - [Blog](https://typst.app/blog/)
-- Social - [Discord] [Instagram] [LinkedIn] [Mastodon] [X]
+- Social - [Discord] [Instagram] [LinkedIn] [Mastodon] [Bluesky]
 
 [discord]: https://discord.com/invite/2uDybryKPe
 [instagram]: https://www.instagram.com/typstapp/
 [linkedin]: https://www.linkedin.com/company/typst/
 [mastodon]: https://mastodon.social/@typst
-[X]: https://twitter.com/typstapp/
+[Bluesky]: https://bsky.app/profile/typst.app
 
 ## Typst Community Links
 
 - [#typst:matrix.org](https://matrix.to/#/%23typst:matrix.org) - Matrix room for Typst.
 - [Typst Examples Book](https://sitandr.github.io/typst-examples-book/book/) - An online book with Typst snippets, including extended tutorial and useful hacks.
 - [Typst Japanese Community](https://typst-jp.github.io/docs/) - Typst Japanese community docs and resources.
-- [Typst-telegram-russian-chat](https://t.me/typst_ru) - Chat about Typst in Telegram in russian
+- [Typst-telegram-russian-chat](https://t.me/typst_ru) - Chat about Typst in Telegram in Russian
 - [best-of-typst](https://github.com/YDX-2147483647/best-of-typst) - A ranked list of awesome projects related to Typst.
 - [Typst Reddit Commuity](https://www.reddit.com/r/typst/) - An English speaking subreddit about Typst
+- [Nonsense](https://github.com/SylvanFranklin/nonsense) - Funny and visually stunning generator of random fake math papers.
 
 ## Integrations & Tools
 
 ### Browser Extensions
 
-- (FireFox) [bib-kit](https://github.com/MordragT/bib_kit) - Retrieve website information to create citations in the hayagriva format
-- (FireFox) [yank](https://addons.mozilla.org/en-US/firefox/addon/yank/) - Yank URL and title of current tab, format to a chosen markup language, and copy to clipboard (supports typst link format)
+- (Firefox) [bib-kit](https://github.com/MordragT/bib_kit) - Retrieve website information to create citations in the Hayagriva format
+- (Firefox) [yank](https://addons.mozilla.org/en-US/firefox/addon/yank/) - Yank URL and title of current tab, format to a chosen markup language, and copy to clipboard (supports Typst link format)
 
 ### Chatbots
 
-- [typst-bot](https://github.com/mattfbacon/typst-bot) - A discord bot to render Typst code
-- [typst-bot-telegram](https://t.me/ru_rend_bot) - A telegram bot to render Typst code
-- [typst-telegram-bot](https://github.com/daskol/typst-telegram-bot) - A [telegram bot](https://t.me/TypstBot) with focus in rendering math expression in Typst.
+- [typst-bot](https://github.com/mattfbacon/typst-bot) - A Discord bot to render Typst code
+- [typst-bot-telegram](https://t.me/ru_rend_bot) - A Telegram bot to render Typst code
+- [typst-telegram-bot](https://github.com/daskol/typst-telegram-bot) - A [Telegram bot](https://t.me/TypstBot) with focus on rendering math expressions in Typst
 
 ### CI/CD
 
 - [gitlab-ci-typst](https://gitlab.com/IvanSanchez/gitlab-ci-typst) - Build Typst documents using GitLab CI pipelines
 - [setup-typst](https://github.com/typst-community/setup-typst) - 📑 Install Typst for use in GitHub Actions
-- [typst-action](https://github.com/lvignoli/typst-action) - Build Typst documents using GitHub actions
+- [typst-action](https://github.com/lvignoli/typst-action) - Build Typst documents using GitHub Actions
 
 ### CLI Tools
 
-- [typstyle](https://github.com/typstyle-rs/typstyle) - Opinionated typst code formatter focusing on aesthetic, convergence and correctness.
-- [typst-live](https://github.com/ItsEthra/typst-live) - Hot reloading of pdf in web browser
+- [typstyle](https://github.com/typstyle-rs/typstyle) - Opinionated Typst code formatter focusing on aesthetic, convergence and correctness
+- [typst-live](https://github.com/ItsEthra/typst-live) - Hot reloading of PDF in web browser
 - [typst-pandoc](https://github.com/lvignoli/typst-pandoc) - Typst custom reader and writer for Pandoc
+- [Tylax](https://github.com/scipenai/tylax) - A bidirectional LaTeX-Typst converter based on AST parsing, with support for TikZ graphics.
 - [utpm](https://github.com/typst-community/utpm) - _Package manager_ for **[local](https://github.com/typst/packages#local-packages)** and **[remote](https://github.com/typst/packages)** Typst packages.
 - [Tyler](https://github.com/mkpoli/tyler) - Package compiler for the ease of packaging and publishing Typst libraries and templates.
 - [textlint-plugin-typst](https://github.com/textlint/textlint-plugin-typst) - [textlint](https://textlint.org/) plugin to lint Typst
@@ -109,33 +111,37 @@ Contributions are welcome!
 ### Editors
 
 - [Katvan](https://github.com/IgKh/katvan) - A bare-bones editor for Typst files, with a bias for Right-to-Left editing.
-- [Typstwriter](https://github.com/Bzero/typstwriter) - An integrated desktop editor for typst projects.
+- [Typstwriter](https://github.com/Bzero/typstwriter) - An integrated desktop editor for Typst projects
 - [BeauTyXT](https://github.com/soupslurpr/BeauTyXT) - A private, secure, minimalistic Text, Markdown, and Typst editor for Android
 - [AcademicID](https://github.com/Academic-ID/sapienAI) - A self-hosted academic-focused AI chatbot and research workspace with a Typst, Markdown, and Text editor.
+- [TypstEdit](https://github.com/SuperMegaFort/TypstEdit) - A native MacOS Typst editor
+- [Typesetter](https://codeberg.org/haydn/typesetter) - A GTK editor
 
 ### Editor Integrations
 
 - [SeniorMars/tree-sitter-typst](https://github.com/SeniorMars/tree-sitter-typst) - A TreeSitter parser for the Typst File Format
-- [Tinymist VS Code Extension](https://marketplace.visualstudio.com/items?itemName=myriad-dreamin.tinymist) - A vscode extension for Tinymist integration
-- [Tinymist](https://github.com/Myriad-Dreamin/tinymist) - A language server for typst with integrations for Emacs, Helix, NeoVim, Sublime Text, VsCode/VsCodium, and Zed
-- [Typst Sync](https://github.com/OrangeX4/vscode-typst-sync) - A vscode extension for Typst local packages management and synchronization.
+- [Tinymist VS Code Extension](https://marketplace.visualstudio.com/items?itemName=myriad-dreamin.tinymist) - A VS Code extension for Tinymist integration
+- [Tinymist](https://github.com/Myriad-Dreamin/tinymist) - A language server for Typst with integrations for Emacs, Helix, Neovim, Sublime Text, VS Code/VSCodium, and Zed
+- [Typst Sync](https://github.com/OrangeX4/vscode-typst-sync) - A VS Code extension for Typst local packages management and synchronization
 - [frozolotl/tree-sitter-typst](https://github.com/frozolotl/tree-sitter-typst) - A tree-sitter grammar with a focus on correctness.
 - [inktyp](https://github.com/herlev/inktyp) - An Inkscape plugin to insert and edit Typst equations
-- [obsidian-typst](https://github.com/fenjalien/obsidian-typst) - Renders typst code blocks in Obsidian into images using Typst through the power of WASM!
+- [obsidian-typst](https://github.com/fenjalien/obsidian-typst) - Renders Typst code blocks in Obsidian into images using Typst through the power of WASM!
 - [org-typst-preview](https://github.com/remimimimimi/org-typst-preview.el) - Typst preview in org-mode
 - [typstar](https://github.com/arne314/typstar) - Neovim plugin providing autosnippets, excalidraw integration and \[standalone\] Anki flashcard export
-- [typst-conceal.vim](https://github.com/MrPicklePinosaur/typst-conceal.vim) - Vim/Nvim plugin for replacing long typst symbol names with unicode characters
+- [typst-conceal.vim](https://github.com/MrPicklePinosaur/typst-conceal.vim) - Vim/Nvim plugin for replacing long Typst symbol names with Unicode characters
 - [typst-math](https://marketplace.visualstudio.com/items?itemName=surv.typst-math) - A VS Code extension to simplify math writing in Typst
 - [typst-sympy-calculator](https://github.com/OrangeX4/vscode-typst-sympy-calculator) - VS Code extension for Typst math calculating, includes Arithmetic, Calculus, Matrix, Custom Variances and Functions by yourself
 - [typst-ts-mode](https://git.sr.ht/~meow_king/typst-ts-mode) - Typst tree sitter major mode for Emacs
-- [typst.nvim](https://github.com/SeniorMars/typst.nvim) - WIP. Goals: Treesitter highlighting, snippets, and a smooth integration with neovim
+- [typst.nvim](https://github.com/SeniorMars/typst.nvim) - WIP. Goals: Treesitter highlighting, snippets, and a smooth integration with Neovim
 - [typst.vim](https://github.com/kaarmu/typst.vim) - Vim plugin for Typst
 - [typstd](https://github.com/daskol/typstd) - Yet another Typst language server.
 - [uben0/tree-sitter-typst](https://github.com/uben0/tree-sitter-typst) - A TreeSitter grammar for the Typst language, used by Helix
+- [zeta](https://github.com/lentilus/zeta) - A language server for Zettelkasten-style note-taking, featuring fast navigation, and a graph view.
 
 ### Online Tools
 
 - [Detypify](https://github.com/QuarticCat/detypify) - Typst symbol classifier
+- [online-typst-editor](https://github.com/Mapaor/online-typst-editor) - A serverless (client-side) typst editor powered by WebAssembly ([typst.ts](https://github.com/Myriad-Dreamin/typst.ts))
 - [excel-to-typst](https://github.com/hongjr03/excel-to-typst) - A tool that convert Excel tables to Typst table, can work in uploading .xlsx file or pasting.
 
 ### Programming
@@ -151,7 +157,7 @@ Contributions are welcome!
 
 ### Typst As A Service
 
-- [typst-http-api](https://github.com/slashformotion/typst-http-api) - An simple docker containing an API to compile typst markup
+- [typst-http-api](https://github.com/slashformotion/typst-http-api) - A simple Docker image containing an API to compile Typst markup
 - [typst-telegram-bot](https://github.com/daskol/typst-telegram-bot) - A plain and simple HTTP API for rendering math with Typst.
 
 ## Templates & Libraries
@@ -177,20 +183,21 @@ Contributions are welcome!
 - [in-dexter](https://github.com/RolfBremer/in-dexter) - Automatically Generated Index Page (renamed from typst-index)
 - [mcm-icm-typst-template](https://github.com/DawnEver/mcm-icm-typst-template) - A template for Mathematical Contest in Modeling (MCM) and the Interdisciplinary Contest in Modeling(ICM).
 - [simple-typst-thesis](https://github.com/zagoli/simple-typst-thesis) - A template useful for writing simple thesis in Typst
-- [thesis-template-typst](https://github.com/ls1intum/thesis-template-typst) - Technical University of Munich thesis Template with cover, titlepage, tables, figures, appendix, etc.
+- [thesis-template-typst](https://github.com/ls1intum/thesis-template-typst) - Technical University of Munich thesis template with cover, title page, tables, figures, appendix, etc.
 - [tufte-typst](https://github.com/fredguth/tufte-typst) - A Tufte-inspired template for Typst
 - [tufte-memo](https://github.com/nogula/tufte-memo) - A memo document template inspired by the design of Edward Tufte's books.
 - [typst-bioinfo-thesis](https://github.com/lkndl/typst-bioinfo-thesis) - Flexible section headers and page numbers; pretty outlines and a `wrapfig`
+- [klirr](https://github.com/sajjon/klirr) - Zero-maintenance and smart FOSS generating beautiful invoices for services and expenses.
 - [typst-invoice](https://github.com/erictapen/typst-invoice) - Generate invoices from TOML files
 - [typst-mla9-template](https://github.com/wychwitch/typst-mla9-template) - An MLA 9th edition template
 - [typst-orange-template](https://github.com/flavio20002/typst-orange-template) - A Typst book template inspired by The Legrand Orange Book
 - [typst-palettes](https://github.com/kaarmu/splash) - A library of color palettes for Typst
-- [typst-templates](https://github.com/daskol/typst-templates) - A templates collection for major venues in machine learning and AI.
+- [typst-templates](https://github.com/daskol/typst-templates) - A template collection for major venues in machine learning and AI
 - [typst-templates](https://github.com/eigenein/typst-templates) - Templates for Typst
 - [typst-templates](https://github.com/haxibami/haxipst) - My typst templates
 - [typst-uwthesis](https://github.com/yangwenbo99/typst-uwthesis) - A typst template for writing thesis, featuring a working abbreviation lists.
 - [typstry](https://github.com/qjcg/typstry) - A Tapestry of Typst Templates & Examples
-- [writable-gm-screen-inserts](https://github.com/LLBlumire/writable-gm-screen-inserts) - Writable Game Master Screen Insertsces
+- [writable-gm-screen-inserts](https://github.com/LLBlumire/writable-gm-screen-inserts) - Writable Game Master Screen Inserts
 
 ### Assignments
 
@@ -232,15 +239,16 @@ Contributions are welcome!
 - [typst-cv-resume](https://github.com/jxpeng98/Typst-CV-Resume) - A CV template with Sans font inspired by LaTeX `Deedy-Resume`
 - [typst-cv-template1](https://github.com/vaibhavjhawar/typst-cv-template1) - A CV template inspired by Alessandro Plasmati's Graduate CV LaTex template
 - [typst-cv-template](https://github.com/JCGoran/typst-cv-template) - A CV template inspired by LaTeX's `Awesome CV`
-- [typst-cv-template](https://github.com/skyzh/chicv) - Chi CV Template (For Typst)
+- [typst-cv-template](https://github.com/skyzh/chicv) - Chi CV Template (for Typst)
 - [typst-mixed-resume](https://github.com/titaneric/typst-mixed-resume) - A casual and elegant resume template inspired by multiple templates.
 - [typst-neat-cv](https://github.com/UntimelyCreation/typst-neat-cv) - A Typst template for modern, minimal and elegant CVs, inspired by mintyfrankie's `Brilliant CV`
 - [typst-resume-sans](https://github.com/mizlan/typst-resume-sans) - A sleek and unadorned sans-serif resume template.
 - [typst-resume-template](https://github.com/bamboovir/typst-resume-template) - Aesthetic style inspired by the Awesome-CV project
 - [typst-resume-template](https://github.com/hexWars/resume) - A pretty resume template designed using typst.
 - [typst-twentysecondcv](https://github.com/tomowang/typst-twentysecondcv) - A CV template inspired by LaTeX's `Twenty Seconds Resume/CV`
-- [typst-yaml-cv](https://github.com/daxartio/cv) - A simple cv template designed using typst and yaml.
+- [typst-yaml-cv](https://github.com/daxartio/cv) - A simple CV template designed using Typst and YAML
 - [vercanard](https://github.com/elegaanz/vercanard) - A colorful resume template for Typst
+- [typst-resume-template](https://github.com/madhank93/typst-resume-template) - Modern, minimalist resume design with Typst
 
 ### Calendar / Timetable
 
@@ -269,8 +277,8 @@ Contributions are welcome!
 
 ### Graphics
 
-- [CeTZ](https://github.com/cetz-package/cetz) - CeTZ (CeTZ, ein Typst Zeichenpacket) is a library for drawing with [Typst](https://typst.app) with an API inspired by TikZ and [Processing](https://processing.org/). It comes with modules for drawing plots, graphs and charts.
-- [typst-raytracer](https://github.com/SeniorMars/typst-raytracer) - raytracer in typst
+- [CeTZ](https://github.com/cetz-package/cetz) - CeTZ (CeTZ, ein Typst Zeichenpaket) is a library for drawing with [Typst](https://typst.app) with an API inspired by TikZ and [Processing](https://processing.org/). It comes with modules for drawing plots, graphs and charts.
+- [typst-raytracer](https://github.com/SeniorMars/typst-raytracer) - Raytracer in Typst
 
 ### Letters
 
@@ -335,6 +343,7 @@ Contributions are welcome!
 ##### Conferences
 
 - [aiaa-typst](https://github.com/isaacew/aiaa-typst) - A template for creating conference papers in the style of the American Institute of Aeronautics and Astronautics.
+- [cogsci-conference](https://typst.app/universe/package/cogsci-conference) - Official template for the Cognitive Science Society (CogSci) Conference Proceedings.
 - [ieee-conference-typst-template](https://github.com/DawnEver/ieee-conference-typst-template) A template to write IEEE Conference in Typst.
 - [ieee-typst-template](https://github.com/bsp0109/ieee-typst-template) - A template to write IEEE Papers in Typst
 - [ifacconf-typst](https://github.com/avonmoll/ifacconf-typst) - A template for creating conference papers in the style of the International Federation of Automatic Control

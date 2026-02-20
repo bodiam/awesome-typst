@@ -78,13 +78,13 @@ Typst 是可用于出版的可编程标记语言，拥有变量、函数与包�
 - [Typst 文档](https://typst.app/docs)
 - [GitHub](https://github.com/typst/typst)
 - [博客](https://typst.app/blog/)
-- 社交 - [Discord] [Instagram] [LinkedIn] [Mastodon] [X]
+- 社交 - [Discord] [Instagram] [LinkedIn] [Mastodon] [Bluesky]
 
 [discord]: https://discord.gg/2uDybryKPe
 [instagram]: https://instagram.com/typstapp/
 [linkedin]: https://www.linkedin.com/company/typst/
 [mastodon]: https://mastodon.social/@typst
-[X]: https://twitter.com/typstapp/
+[Bluesky]: https://bsky.app/profile/typst.app
 
 ## 集成和工具
 
@@ -109,6 +109,7 @@ Typst 是可用于出版的可编程标记语言，拥有变量、函数与包�
 - [typst-preview](https://github.com/Enter-tainer/typst-preview) - 在浏览器中实时预览 Typst
 - [typst-live](https://github.com/ItsEthra/typst-live) - 在 Web 浏览器中实时重新加载 PDF
 - [typst-pandoc](https://github.com/lvignoli/typst-pandoc) - Pandoc 的 Typst 自定义读写器
+- [Tylax](https://github.com/scipenai/tylax) - 一个基于 AST 解析的双向 LaTeX-Typst 转换器，支持 TikZ 图形
 
 ### 在线工具
 
@@ -168,6 +169,7 @@ Typst 是可用于出版的可编程标记语言，拥有变量、函数与包�
 - [ustcthss-typst](https://github.com/smallscientist1/ustcthss-typst): 中国科学技术大学本科毕业论文 Typst 模版
 - [nwnu-thesis-typst](https://github.com/PrinOrange/nwnu-thesis-typst): 西北师范大学研究生学位论文 Typst 模版
 - [typst_xdutemplate](https://github.com/Hubert9982/typst_xdutemplate)：西安电子科技大学本科毕业设计 Typst 非官方模板
+- [cug-thesis-typst](https://github.com/yangyf0419/cug-thesis-typst)：中国地质大学（武汉）学位论文 Typst 模板
 
 ### 通用
 
